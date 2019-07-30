@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript Geolocation</title>
+    <script src="https://kit.fontawesome.com/a4c3e0556c.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDN79kG4OiJYPvpcJfFout7Kg5BS_g4trM"></script>
+  </head>
+  <body>
+    <style media="screen">
+
+    body{
+      background: teal;
+    }
+
+      .card{
+        padding: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        width: 80%;
+        margin: 20px;
+      }
+
+      .card-bgblack{
+        background-color: black;
+        color: white;
+      }
+
+      .content{
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+<script src="index.js" charset="utf-8"></script>
+
+<div class="content">
+  <div class="card card-bgblack">
+    <h1>Coordenadas <i class="fas fa-map-marker-alt"></i></h1>
+    <h2 id="cordenada"></h2>
+    <h1>Altura <i class="fas fa-mountain"></i></h1>
+    <h3 id="altura"></h3>
+  </div>
+
+</div>
+
+<div class="content">
+  <div class="card card-bgblack">
+    <h1>Ubicacion <i class="far fa-compass"></i></h1>
+    <p id="ubicacion"></p>
+  </div>
+</div>
+
+  </body>
+</html>
